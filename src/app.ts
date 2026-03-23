@@ -8,7 +8,7 @@ const port: number = 3000
 // GET /
 app.get('/', (_: Request, res: Response) => {
   res.json({
-    message: 'Hello Rust + TypeScript123'
+    message: 'Hello Rust TypeScript123'
   })
 })
 
